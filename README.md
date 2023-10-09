@@ -20,7 +20,7 @@ Clone this repo and perform certain tasks like :
 - Try to add more section to it
 
 ```
-git clone https://github.com/ScreenTechnicals/Environ.git
+git clone https://github.com/CareerDevelopmentHub/Environ-Workshop-1
 ```
 
 ```
