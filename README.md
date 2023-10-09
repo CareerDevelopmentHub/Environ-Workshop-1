@@ -24,7 +24,7 @@ git clone https://github.com/CareerDevelopmentHub/Environ-Workshop-1
 ```
 
 ```
-cd Environ
+cd Environ-Workshop-1
 ```
 
 `then, start the live server on your vs code.`
