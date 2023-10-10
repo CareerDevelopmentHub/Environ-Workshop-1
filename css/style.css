@@ -156,3 +156,46 @@ header .nav_links a:hover:after {
   justify-content: center;
   align-items: center;
 }
+footer {
+background-color: rgb(205, 200, 200);
+ 
+
+
+}
+footer .row{
+  display: flex;
+  gap:50px;
+  margin:50px 0px;
+  justify-content:center;
+  align-items: center;
+
+}
+.container{
+  /* overflow: hidden; */
+ padding:10px 0px;
+ 
+}
+.container h3{
+padding-left: 70px;
+padding-top: 20px;
+margin: 2px 0px; 
+font-size: 30px;
+color:rgb(164, 67, 164);
+font-family:'Times New Roman', Times, serif;
+}
+.container .iconcss{
+  font-size: 50px;
+  color:black;
+  margin-right: 20px;
+}
+.sub{
+  background-color: rgb(145, 152, 232);
+  font-size: 16px;
+  border-radius:5px;
+}
+.sub:hover{
+background-color: rgb(133, 165, 179);
+box-shadow:1px 0px 10px 1px #f70602;
+}
+
+
