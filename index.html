@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Environ</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
     <header>
       <div class="brand-box">
-        <a href="/">Environ</a>
+        <a href="./index.html">Environ</a>
       </div>
       <nav class="nav-links">
-        <a href="/">Home</a>
-        <a href="/">Blogs</a>
+        <a href="./index.html">Home</a>
+        <a href="#blogs">Blogs</a>
         <a href="/">About</a>
         <a href="/">Services</a>
-        <a href="/">Blogs</a>
-        <a href="/">Blogs2</a>
-        <a href="contact.html">Contact Us</a>
+        <a href="#conc">Contact Us</a>
       </nav>
     </header>
 
@@ -31,7 +31,7 @@
         </p>
         <button class="cta-button">Get Started</button>
       </div>
-    </section>
+    </section> 
 
     <section id="blogs">
       <h2>All Blog Posts</h2>
@@ -41,19 +41,68 @@
       </div>
     </section>
 
-    <!-- Testimonials Section -->
-    <section id="testimonials">
-      <h2>What Our Customers Say</h2>
-      <div class="testimonial">
-        <img src="./images/customer1.jpg" alt="Customer 1" />
-        <p>"Great service! Environ really cares about the environment."</p>
-        <p><strong>John Doe</strong></p>
+    <!-- from here blog cards will be shown  -->
+    <section class="services" id="services">
+      <div class="card">
+        <img src="https://source.unsplash.com/random/200x200?sig=1" />
+          <h1>Explore Blogs</h1>
+          <p>"Sunsets paint the sky with dreams, while raindrops serenade the earth. In these moments, beauty thrives, reminding us of life's exquisite brevity."</p>
+         
       </div>
-      <div class="testimonial">
-        <img src="./images/customer2.jpg" alt="Customer 2" />
-        <p>"I love reading Environ's blogs. Very informative!"</p>
-        <p><strong>Jane Smith</strong></p>
+      <div class="card">
+          <img src="https://source.unsplash.com/random/200x200?sig=2" />
+          <h1>Explore Blogs</h1>
+          <p>"Sunsets paint the sky with dreams, while raindrops serenade the earth. In these moments, beauty thrives, reminding us of life's exquisite brevity."</p>
+         
       </div>
-    </section>
+      <div class="card">
+          <img src="https://source.unsplash.com/random/200x200?sig=3" />
+          <h1>Explore Blogs</h1>
+          <p>"Sunsets paint the sky with dreams, while raindrops serenade the earth. In these moments, beauty thrives, reminding us of life's exquisite brevity."</p>
+         
+      </div>
+      <div class="card">
+          <img src="https://source.unsplash.com/random/200x200?sig=4" />
+          <h1>Explore Blogs</h1>
+          <p>"Sunsets paint the sky with dreams, while raindrops serenade the earth. In these moments, beauty thrives, reminding us of life's exquisite brevity."</p>
+         
+      </div>
+      <div class="card">
+          <img src="https://source.unsplash.com/random/200x200?sig=5" />
+          <h1>Explore Blogs</h1>
+          <p>"Sunsets paint the sky with dreams, while raindrops serenade the earth. In these moments, beauty thrives, reminding us of life's exquisite brevity."</p>
+         
+      </div>
+      <div class="card">
+          <img src="https://source.unsplash.com/random/200x200?sig=6" />
+          <h1>Explore Blogs</h1>
+          <p>"Sunsets paint the sky with dreams, while raindrops serenade the earth. In these moments, beauty thrives, reminding us of life's exquisite brevity."</p>
+         
+      </div>
+  </section>
+
+  <!-- contact -->
+  <div class="contact" id="conc">
+    <main>
+        <h1>Contact Us</h1>
+
+        <form>
+            <div class="inp">
+                <label >Name</label>
+                <input type="text" required placeholder='Abc' />
+            </div>
+            <div class="inp">
+                <label>Email</label>
+                <input type="email" required placeholder='Abc@gmail.com' />
+            </div>
+            <div class="inp">
+                <label>Message</label>
+                <input type="text" required placeholder='Tell us about your query...' />
+            </div>
+            <button type="submit">Send</button>
+        </form>
+    </main>
+</div>
+
   </body>
 </html>
