@@ -197,5 +197,8 @@ font-family:'Times New Roman', Times, serif;
 background-color: rgb(133, 165, 179);
 box-shadow:1px 0px 10px 1px #f70602;
 }
-
+.icss{
+  color: black;
+  font-size: 20px;
+}
 
