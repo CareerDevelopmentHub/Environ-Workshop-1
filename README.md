@@ -29,7 +29,7 @@ cd Environ-Workshop-1
 
 `then, start the live server on your vs code.`
 
-## Follow Us On Guthub
+## Follow Us On Github
 
 - Chinmaya Sa: https://github.com/ScreenTechnicals
 - Anshuman Panda: https://github.com/PandaAnshuman
