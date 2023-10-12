@@ -3,39 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Environ</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css">
   </head>
   <body>
     <header>
-      <div class="brand-box">
+      <div class="brand_box">
         <a href="/">Environ</a>
       </div>
-      <nav class="nav-links">
-        <a href="/">Home</a>
-        <a href="/">Blogs</a>
-        <a href="/">About</a>
-        <a href="/">Services</a>
-        <a href="/">Blogs</a>
-        <a href="/">Blogs2</a>
-        <a href="contact.html">Contact Us</a>
-      </nav>
+      <div class="nav_links">
+        <a href="/">home</a>
+        <a href="/">blogs</a>
+        <a href="/">about</a>
+        <a href="/">services</a>
+        <a href="/">contact us</a>
+      </div>
+      <div class ="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
     </header>
-
+    <div class="div1">
+      <div class="inner-div"></div>
+    </div>
     <section id="home">
-      <div class="home-content">
-        <h1>Welcome to Environ</h1>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt in
-          sint voluptate fugit nem
-        </p>
-        <button class="cta-button">Get Started</button>
+      <p>Welcome to Environ</p>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt in
+        sint voluptate fugit nem
+      </p>
+      <div>
+        <button>Get Started</button>
       </div>
     </section>
-
     <section id="blogs">
-      <h2>All Blog Posts</h2>
-      <hr class="hr" />
+      <p>All Blog Posts</p>
+      <div class="hr"></div>
       <div class="post-container">
         <div class="card">
           <img src="images/bg1.jpg" class="card-img">
@@ -72,8 +77,77 @@
         <p class="card-title">Title</p>
         <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nulla, illum vitae, consequatur totam assumenda laboriosam similique accusantium, voluptatem quidem nam molestias exercitationem a! Commodi deserunt iste eius similique natus.</p>
        </div>
+        <div class="blog-card">
+          <img src="./images/bg1.jpg" alt="" />
+          <div>
+            <p>Title</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et odit
+              dolores quidem ullam repudiandae. Quia officia quam ipsa assumenda
+              rem.
+            </p>
+          </div>
+        </div>
+        <div class="blog-card">
+          <img src="./images/bg1.jpg" alt="" />
+          <div>
+            <p>Title</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et odit
+              dolores quidem ullam repudiandae. Quia officia quam ipsa assumenda
+              rem.
+            </p>
+          </div>
+        </div>
+        <div class="blog-card">
+          <img src="./images/bg1.jpg" alt="" />
+          <div>
+            <p>Title</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et odit
+              dolores quidem ullam repudiandae. Quia officia quam ipsa assumenda
+              rem.
+            </p>
+          </div>
+        </div>
+        <div class="blog-card">
+          <img src="./images/bg1.jpg" alt="" />
+          <div>
+            <p>Title</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et odit
+              dolores quidem ullam repudiandae. Quia officia quam ipsa assumenda
+              rem.
+            </p>
+          </div>
+        </div>
+        <div class="blog-card">
+          <img src="./images/bg1.jpg" alt="" />
+          <div>
+            <p>Title</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et odit
+              dolores quidem ullam repudiandae. Quia officia quam ipsa assumenda
+              rem.
+            </p>
+          </div>
+        </div>
+        <div class="blog-card">
+          <img src="./images/bg1.jpg" alt="" />
+          <div>
+            <p>Title</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et odit
+              dolores quidem ullam repudiandae. Quia officia quam ipsa assumenda
+              rem.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const navlinks = document.querySelector(".nav_links");
 
     <!--- Testimonials Section --->
     <section id="testimonials">
@@ -89,5 +163,11 @@
         <p><strong>Jane Smith</strong></p>
       </div>
     </section>
+      hamburger.addEventListener("click", ()=>
+      {
+        hamburger.classList.toggle("active");
+        navlinks.classList.toggle("active");
+      })
+    </script>
   </body>
 </html>
