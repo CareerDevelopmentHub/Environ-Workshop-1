@@ -170,3 +170,6 @@ header .hamburger .line
   justify-content: center;
   align-items: center;
 }
+h1 {
+  color: red !important;
+}
