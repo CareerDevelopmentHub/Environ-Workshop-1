@@ -181,3 +181,6 @@ nav {
   display: block;
   font-weight: bold;
 }
+h1 {
+  color: red !important;
+}
