@@ -121,21 +121,25 @@ header .hamburger .line
   min-height: 100vh;
   padding: 20px;
 }
+
 #blogs > p {
   text-align: center;
   padding-bottom: 10px !important;
   padding: 20px 50px;
   font-size: 20px;
 }
+
 .hr {
   width: 70px;
   height: 5px;
   background: #5a00d0;
   margin: 0 auto;
 }
+
 #blogs .post-container {
   width: 100%;
 }
+
 #blogs .post-container .blog-card {
   width: 200px;
   height: 250px;
@@ -147,17 +151,21 @@ header .hamburger .line
   box-shadow: 0 0 20px 0 #c3c3c3;
   cursor: pointer;
 }
+
 #blogs .post-container .blog-card img {
   width: 100%;
   height: 120px;
   object-fit: cover;
 }
+
 #blogs .post-container .blog-card div {
   padding-top: 1cqh;
 }
+
 #blogs .post-container .blog-card div p:nth-child(1) {
   font-size: 18px;
 }
+
 #blogs .post-container .blog-card div p {
   font-size: 12px;
   text-align: start;
@@ -201,4 +209,8 @@ header .hamburger .line
 
 .card-info {
   font-size: 0.75rem;
+}
+
+h1 {
+  color: red !important;
 }
