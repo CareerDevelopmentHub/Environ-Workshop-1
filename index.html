@@ -1,33 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/responsive.css">
-  </head>
-  <body>
-    <header>
-      <div class="brand_box">
-        <a href="/">Environ</a>
-      </div>
-      <div class="nav_links">
-        <a href="/">home</a>
-        <a href="/">blogs</a>
-        <a href="/">about</a>
-        <a href="/">services</a>
-        <a href="/">contact us</a>
-      </div>
-      <div class ="hamburger">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-      </div>
-    </header>
-    <div class="div1">
-      <div class="inner-div"></div>
-    </div>
+
     <section id="home">
       <p>Welcome to Environ</p>
       <p>
@@ -37,7 +10,7 @@
       <div>
         <button>Get Started</button>
       </div>
-    </section>
+
     <section id="blogs">
       <p>All Blog Posts</p>
       <div class="hr"></div>
@@ -114,11 +87,6 @@
       const hamburger = document.querySelector(".hamburger");
       const navlinks = document.querySelector(".nav_links");
 
-      hamburger.addEventListener("click", ()=>
-      {
-        hamburger.classList.toggle("active");
-        navlinks.classList.toggle("active");
-      })
-    </script>
+
   </body>
 </html>
