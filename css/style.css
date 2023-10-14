@@ -362,6 +362,7 @@ font-family:'Times New Roman', Times, serif;
   color:black;
   margin-right: 20px;
 }
+
 .sub{
   background-color: rgb(145, 152, 232);
   font-size: 16px;
@@ -402,3 +403,6 @@ box-shadow:1px 0px 10px 1px #f70602;
 
 }
 
+h1 {
+  color: red !important;
+}
