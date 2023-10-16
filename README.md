@@ -40,3 +40,6 @@ cd Environ-Workshop-1
 - Chinmaya Sa: https://www.linkedin.com/in/chinmaya-sa-60a594239
 - Anshunam Panda: https://www.linkedin.com/in/anshuman-panda-575562258
 - Subhranshu Choudhury: https://www.linkedin.com/in/subhranshusekharchoudhury
+
+Welcome to SocialHub, an open-source project with a simple yet powerful goal.Share your innovative ideas with eveyone. 😃
+<br>
