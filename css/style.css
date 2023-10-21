@@ -115,7 +115,8 @@ ul {
 }
 
 /* Responsive Navbar Styles */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 700px)
+{
   .nav-menu {
     position: fixed;
     left: -100%;
@@ -135,21 +136,25 @@ ul {
     color: #101010;
   }
 
-  .nav-item {
+  .nav-item
+  {
     margin: 2.5rem 0;
     color: #101010 !important;
   }
 
-  .hamburger {
+  .hamburger
+  {
     display: block;
     cursor: pointer;
   }
 
-  ul {
+  ul
+  {
     color: black;
   }
 
-header .nav_links a::after {
+header .nav_links a::after
+ {
   position: absolute;
   content: "";
   width: 0%;
@@ -158,22 +163,22 @@ header .nav_links a::after {
   height: 1px;
   background: #ff9100;
   transition: all 0.5s ease;
-}
-header .nav_links a:hover:after {
+  }
+ header .nav_links a:hover:after {
   width: 100%;
-}
-header .hamburger
-{
+ }
+ header .hamburger
+ {
   display: none;
   cursor: pointer;
-}
-header .hamburger .line
-{
+ }
+ header .hamburger .line
+ { 
   display: block;
   width:25px;
   height: 3px;
   background: #fff;
-  margin : 4px;
+  margin : 5px;
   transition: all 0.3s ease-in-out;
 
 }
@@ -192,17 +197,20 @@ header .hamburger .line
   top: 40%;
   left: 60%;
 } */
-#home {
-  width: 100%;
-  min-height: 50vh;
-  background: #5a00d0;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 0 50px;
+
+  #home
+ {
+   width: 100%;
+   min-height: 50vh;
+   background: #5a00d0;
+   color: #fff;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding:  50px;
+ }
 }
 #home p:nth-child(1) {
   font-size: 40px;
@@ -425,4 +433,5 @@ h1 {
 }
 @keyframes blink {
   50% { border-color: transparent;}
+}
 }
