@@ -6,6 +6,16 @@
     <title>Environ</title>
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/style.css">
+    <script>
+        document.querySelector('form').addEventListener('submit', function(event) {
+  event.preventDefault();
+
+  // Assume the form is successfully submitted here
+  // Add a class to the form to trigger the animation
+  document.querySelector('form').classList.add('success-message');
+});
+
+    </script>
 </head>
 <body>
     <header>
