@@ -5,7 +5,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: fading 1s ease;
 }
 main {
   background-color: white;
@@ -53,46 +52,8 @@ button {
   color: white;
   width: 200px;
   font: 500 1rem ;
-  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 button:hover {
   opacity: 0.9;
-  background-color:chartreuse;
-  color: black;
-  transform: scale(1.05);
-}
-
-
-@keyframes fading {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-.nav_links a {
-  transition: color 0.3s ease;
-}
-
-.nav_links a:hover {
-  color: #38fc02; 
-}
-
-input:focus {
-  border-color: #ff7f50; 
-}
-@keyframes anime {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.success-message {
-  animation: anime 0.5s ease-in;
 }
