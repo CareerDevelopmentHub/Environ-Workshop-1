@@ -1,3 +1,4 @@
+ barsharaniSahoo
 .contact {
   width: 100%;
   height: 92vh;
@@ -96,3 +97,64 @@ input:focus {
 .success-message {
   animation: anime 0.5s ease-in;
 }
+=======
+.contact {
+  width: 100%;
+  height: 92vh;
+  background-color: #5a00d0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  background-color: white;
+  height: 40rem;
+  width: 70%;
+  padding: 3rem;
+  border-radius: 0 200px 200px 0;
+}
+form {
+  margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.inp {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 60%;
+  margin: 0.5rem;
+}
+label {
+  font: 400 1.2rem ;
+  width: 20%;
+  margin: 0 1rem;
+}
+
+input {
+  align-self: stretch;
+  width: 80%;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid rgba(123, 123, 123, 0.6);
+  outline: none;
+}
+
+button {
+  margin: 3rem 0;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #5853ff;
+  color: white;
+  width: 200px;
+  font: 500 1rem ;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+ 

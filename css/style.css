@@ -1,3 +1,4 @@
+ barsharaniSahoo
 /* google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Oxanium:wght@500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
@@ -439,4 +440,189 @@ h1 {
 }}
 
 
+
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Oxanium:wght@500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Global Styles */
+html,
+body {
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #4e33b0;
+}
+
+header {
+  background: #5a00d0;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+header a {
+  color: #fff;
+  text-transform: capitalize;
+  margin: 0 10px;
+  font-weight: 500;
+  transition: color 0.6s ease;
+}
+
+header a:hover {
+  color: orangered;
+}
+header .brand-box a {
+  font-size: 30px;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+/* Home Section */
+#home {
+  background: #5a00d0;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.home-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#home h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+#home p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background: #fff;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.5s ease;
+}
+
+.cta-button:hover {
+  background: #ffee57;
+}
+
+/* Blogs Section */
+#blogs {
+  padding: 50px;
+  text-align: center;
+}
+
+#blogs h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.hr {
+  width: 70px;
+  height: 5px;
+  background: #5a00d0;
+  margin: 0 auto;
+}
+
+.post-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.blog-card {
+  width: 200px;
+  background: #fff;
+  border: 1px solid #c5c5c5;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 #c3c3c3;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.blog-card:hover {
+  transform: scale(1.05);
+}
+
+.blog-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.blog-card p {
+  font-size: 14px;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background: #f5f5f5;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#testimonials h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.testimonial {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 10px 0 #ccc;
+}
+
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.testimonial p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.testimonial strong {
+  display: block;
+  font-weight: bold;
+}
 
