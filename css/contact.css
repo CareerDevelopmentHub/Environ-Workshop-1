@@ -1,3 +1,103 @@
+ barsharaniSahoo
+.contact {
+  width: 100%;
+  height: 92vh;
+  background-color: #3b0c7a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fading 1s ease;
+}
+main {
+  background-color: rgb(232, 201, 201);
+  height: 40rem;
+  width: 70%;
+  padding: 3rem;
+  border-radius: 0 200px 200px 0;
+}
+form {
+  margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.inp {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 60%;
+  margin: 0.5rem;
+}
+label {
+  font: 400 1.2rem ;
+  width: 20%;
+  margin: 0 1rem;
+}
+
+input {
+  align-self: stretch;
+  width: 80%;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid rgba(101, 95, 95, 0.6);
+  outline: none;
+}
+
+button {
+  margin: 3rem 0;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #3c38c0;
+  color: white;
+  width: 200px;
+  font: 500 1rem ;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+  background-color:chartreuse;
+  color: black;
+  transform: scale(1.05);
+}
+
+
+@keyframes fading {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.nav_links a {
+  transition: color 0.3s ease;
+}
+
+.nav_links a:hover {
+  color: #38fc02; 
+}
+
+input:focus {
+  border-color: #ff7f50; 
+}
+@keyframes anime {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.success-message {
+  animation: anime 0.5s ease-in;
+}
+=======
 .contact {
   width: 100%;
   height: 92vh;
@@ -57,3 +157,4 @@ button {
 button:hover {
   opacity: 0.9;
 }
+ 
